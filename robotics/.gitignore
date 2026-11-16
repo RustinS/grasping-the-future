@@ -1,0 +1,5 @@
+# SPIDER clone (robotics/third_party.sh), its environment and run outputs
+spider/
+.venv/
+output/
+__pycache__/

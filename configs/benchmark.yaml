@@ -1,0 +1,8 @@
+# Evaluation protocol of the paper's Tables 1 and 2: 20 samples per window, 10 Euler steps, bf16 autocast,
+# batches of 16, seed 42, on the benchmark cohorts in benchmark/.
+eval:
+  n_samples: 20
+  n_steps: 10
+  amp: true
+  batch_size: 16
+  seed: 42

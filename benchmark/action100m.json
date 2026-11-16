@@ -1,0 +1,385 @@
+{
+ "population": "action100m",
+ "split": "val",
+ "n_windows": 75,
+ "window_seconds": 5.0,
+ "window_digest": "9d939a85cda7671e44ee251a8fab7e9162d23a3b3e0839788946962075259377",
+ "reference": "extracted from video by the production chain",
+ "windows": [
+  {
+   "source": "action100m",
+   "segment_id": "qMgZdMpk660_406-419s__shot2",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "PnzGBr04EMo_165-174s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "AFuH-dctMiQ_34-39s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "lJTzNnP76KY_40-44s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "n-ePWth5Ib8_506-529s",
+   "first_frame": 259
+  },
+  {
+   "source": "action100m",
+   "segment_id": "xJNImabSWxs_225-230s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "JaQMk2goIMo_99-108s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "U_7GO0-WWi0_390-399s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "RRNFl0Honuc_80-90s",
+   "first_frame": 16
+  },
+  {
+   "source": "action100m",
+   "segment_id": "Vs1Y-CEZ65k_406-411s",
+   "first_frame": 6
+  },
+  {
+   "source": "action100m",
+   "segment_id": "c2bOjs8f0Z0_278-287s",
+   "first_frame": 133
+  },
+  {
+   "source": "action100m",
+   "segment_id": "N3Wma7ihJIQ_316-322s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "Lnx9tBpe5C8_171-181s",
+   "first_frame": 151
+  },
+  {
+   "source": "action100m",
+   "segment_id": "uMIAapUoPz8_222-227s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "X_DaVHBV11Y_599-607s",
+   "first_frame": 143
+  },
+  {
+   "source": "action100m",
+   "segment_id": "KPZs_60ySTE_96-106s__shot1",
+   "first_frame": 33
+  },
+  {
+   "source": "action100m",
+   "segment_id": "f-GrPpQ6qtQ_147-151s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "EWIcDO8_UAw_455-459s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "sAOGfLrdIn8_50-67s",
+   "first_frame": 353
+  },
+  {
+   "source": "action100m",
+   "segment_id": "-SnpMmm8HBw_2-17s",
+   "first_frame": 302
+  },
+  {
+   "source": "action100m",
+   "segment_id": "6MrhmIGNNv4_533-540s",
+   "first_frame": 54
+  },
+  {
+   "source": "action100m",
+   "segment_id": "LnvRAU3L5m8_428-434s",
+   "first_frame": 76
+  },
+  {
+   "source": "action100m",
+   "segment_id": "EuJR79ngRio_745-749s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "E71wv-zFUcw_382-388s__shot1",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "uGj-Mhp23Bg_171-175s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "MIj_I6mW5QQ_170-178s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "rnZkjhGxOok_174-189s",
+   "first_frame": 75
+  },
+  {
+   "source": "action100m",
+   "segment_id": "YtiLoX7PhkY_250-255s__shot1",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "oGqPv_FCtkM_825-831s",
+   "first_frame": 48
+  },
+  {
+   "source": "action100m",
+   "segment_id": "OH7CjjBDmE0_128-141s",
+   "first_frame": 151
+  },
+  {
+   "source": "action100m",
+   "segment_id": "8tVORjfRn-U_29-33s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "msfqgv-9l7A_435-444s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "ZcMeyT1byOY_12-18s",
+   "first_frame": 15
+  },
+  {
+   "source": "action100m",
+   "segment_id": "3zusDActJbY_182-195s",
+   "first_frame": 256
+  },
+  {
+   "source": "action100m",
+   "segment_id": "IeFBTmTObxg_1290-1301s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "ExkFQLZUQWU_771-776s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "EbqcFJLJEFc_83-91s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "65OXPbIuXBg_26-33s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "nUnGJTK391Q_80-90s",
+   "first_frame": 75
+  },
+  {
+   "source": "action100m",
+   "segment_id": "SXSjYa1T4yg_436-441s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "2SZ3B3Tqvh4_256-269s",
+   "first_frame": 229
+  },
+  {
+   "source": "action100m",
+   "segment_id": "3i3O4FlkGzM_71-76s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "y4G-sDlCziw_45-51s",
+   "first_frame": 28
+  },
+  {
+   "source": "action100m",
+   "segment_id": "S8_8pm26BrE_131-137s__shot1",
+   "first_frame": 16
+  },
+  {
+   "source": "action100m",
+   "segment_id": "dA9xUdHpS0Q_199-209s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "cAXC-XO23OQ_275-285s",
+   "first_frame": 142
+  },
+  {
+   "source": "action100m",
+   "segment_id": "vJQ7VkPGNHw_195-204s",
+   "first_frame": 75
+  },
+  {
+   "source": "action100m",
+   "segment_id": "MTuBySK87JY_54-60s__iw1",
+   "first_frame": 115
+  },
+  {
+   "source": "action100m",
+   "segment_id": "mDKj19Hnhd0_66-70s",
+   "first_frame": 60
+  },
+  {
+   "source": "action100m",
+   "segment_id": "AEmiMNNIJCI_570-575s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "KiqniWAoqKc_351-366s",
+   "first_frame": 227
+  },
+  {
+   "source": "action100m",
+   "segment_id": "Ec_puXG1Y0A_293-297s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "gfcdvejhP6A_29-33s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "y3qVmco2Bl8_196-203s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "glNhMuV3Xn4_58-67s",
+   "first_frame": 136
+  },
+  {
+   "source": "action100m",
+   "segment_id": "5-sCjG4ruXQ_188-199s",
+   "first_frame": 167
+  },
+  {
+   "source": "action100m",
+   "segment_id": "8-yfDrnLreo_265-285s",
+   "first_frame": 147
+  },
+  {
+   "source": "action100m",
+   "segment_id": "kLSjCcsoUBY_472-477s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "fj_wHfYT5aQ_159-175s__shot1",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "He6dnlK_aGA_123-139s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "Alj254aNxzg_246-253s",
+   "first_frame": 73
+  },
+  {
+   "source": "action100m",
+   "segment_id": "Hr_V24m3Mqo_1065-1074s",
+   "first_frame": 127
+  },
+  {
+   "source": "action100m",
+   "segment_id": "7S27UIIYJ7c_347-352s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "Gc8535ig1BE_269-275s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "wtx2KJu-ec0_2-8s",
+   "first_frame": 28
+  },
+  {
+   "source": "action100m",
+   "segment_id": "QJKU30BfyKw_53-60s",
+   "first_frame": 78
+  },
+  {
+   "source": "action100m",
+   "segment_id": "O_Lw_Y_TkdA_54-59s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "OM3ujdB7Vug_22-27s",
+   "first_frame": 9
+  },
+  {
+   "source": "action100m",
+   "segment_id": "kLLH__bc6mw_104-109s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "3LjQH83gEYU_571-582s",
+   "first_frame": 111
+  },
+  {
+   "source": "action100m",
+   "segment_id": "KiHj_rvoFLA_84-89s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "3caLs6BGDCU_1118-1131s__shot1",
+   "first_frame": 245
+  },
+  {
+   "source": "action100m",
+   "segment_id": "B52K5x7CllY_195-203s",
+   "first_frame": 0
+  },
+  {
+   "source": "action100m",
+   "segment_id": "_QhWXbgbyX4_94-98s",
+   "first_frame": 36
+  },
+  {
+   "source": "action100m",
+   "segment_id": "WZtrRmX-b1U_374-378s",
+   "first_frame": 0
+  }
+ ]
+}

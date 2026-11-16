@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Data, results and model files produced or downloaded locally
+/datasets/
+/results/
+/results_*/
+/segments/
+/logs/
+lightning_logs/
+wandb/
+checkpoints/*
+!checkpoints/denoiser/
+checkpoints/denoiser/*
+!checkpoints/denoiser/v0.pt
+
+# third-party/: only the setup script, our patches and the README are tracked; setup.sh fetches the rest
+third-party/*
+!third-party/setup.sh
+!third-party/patches/
+!third-party/README.md
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store

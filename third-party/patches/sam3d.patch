@@ -1,0 +1,158 @@
+diff --git a/notebook/inference.py b/notebook/inference.py
+index 94e99a7..4648bed 100644
+--- a/notebook/inference.py
++++ b/notebook/inference.py
+@@ -2,7 +2,7 @@
+ import os
+ 
+ # not ideal to put that here
+-os.environ["CUDA_HOME"] = os.environ["CONDA_PREFIX"]
++os.environ.setdefault("CUDA_HOME", os.environ.get("CONDA_PREFIX", "/usr/local/cuda"))
+ os.environ["LIDRA_SKIP_INIT"] = "true"
+ 
+ import sys
+diff --git a/sam3d_objects/model/backbone/tdfy_dit/representations/mesh/flexicubes/flexicubes.py b/sam3d_objects/model/backbone/tdfy_dit/representations/mesh/flexicubes/flexicubes.py
+index 583b5e3..27db44a 100644
+--- a/sam3d_objects/model/backbone/tdfy_dit/representations/mesh/flexicubes/flexicubes.py
++++ b/sam3d_objects/model/backbone/tdfy_dit/representations/mesh/flexicubes/flexicubes.py
+@@ -319,8 +319,10 @@ class FlexiCubes:
+ 
+         beta_group = torch.gather(input=beta.reshape(-1), dim=0,
+                                     index=edge_group_to_cube * 12 + edge_group).reshape(-1, 1)
+-        beta_sum = beta_sum.index_add_(0, index=edge_group_to_vd, source=beta_group)
+-        vd = vd.index_add_(0, index=edge_group_to_vd, source=ue_group * beta_group) / beta_sum
++        # dtype guard: under bf16 decode (H100) beta/ue arrive as BFloat16 while
++        # the accumulators are fp32 zeros; index_add_ requires matching dtypes
++        beta_sum = beta_sum.index_add_(0, index=edge_group_to_vd, source=beta_group.to(beta_sum.dtype))
++        vd = vd.index_add_(0, index=edge_group_to_vd, source=(ue_group * beta_group).to(vd.dtype)) / beta_sum
+         
+         '''
+         interpolate colors use the same method as dual vertices
+@@ -329,7 +331,7 @@ class FlexiCubes:
+             vd_color = torch.zeros((total_num_vd, C), device=self.device)
+             c_group = torch.index_select(input=surf_edges_c, index=idx_group.reshape(-1), dim=0).reshape(-1, 2, C)
+             uc_group = self._linear_interp(s_group * alpha_group, c_group)
+-            vd_color = vd_color.index_add_(0, index=edge_group_to_vd, source=uc_group * beta_group) / beta_sum
++            vd_color = vd_color.index_add_(0, index=edge_group_to_vd, source=(uc_group * beta_group).to(vd_color.dtype)) / beta_sum
+         else:
+             vd_color = None
+         
+diff --git a/sam3d_objects/model/backbone/tdfy_dit/utils/postprocessing_utils.py b/sam3d_objects/model/backbone/tdfy_dit/utils/postprocessing_utils.py
+index de7a4da..0184603 100644
+--- a/sam3d_objects/model/backbone/tdfy_dit/utils/postprocessing_utils.py
++++ b/sam3d_objects/model/backbone/tdfy_dit/utils/postprocessing_utils.py
+@@ -44,6 +44,9 @@ def _fill_holes(
+         num_views (int): Number of views to rasterize the mesh.
+         verbose (bool): Whether to print progress.
+     """
++    # nvdiffrast requires float32 positions; verts can arrive float64 (pyvista
++    # decimate) or bfloat16 (bf16 decode) depending on path/arch
++    verts = verts.float()
+     # Construct cameras
+     yaws = []
+     pitchs = []
+@@ -321,8 +324,8 @@ def postprocess_mesh(
+     # Remove invisible faces
+     if fill_holes:
+         vertices, faces = (
+-            torch.tensor(vertices).cuda(),
+-            torch.tensor(faces.astype(np.int32)).cuda(),
++            torch.as_tensor(vertices, dtype=torch.float32).cuda(),
++            torch.as_tensor(faces.astype(np.int32)).cuda(),
+         )
+         vertices, faces = _fill_holes(
+             vertices,
+diff --git a/sam3d_objects/pipeline/inference_pipeline.py b/sam3d_objects/pipeline/inference_pipeline.py
+index d34d5c2..b76088e 100644
+--- a/sam3d_objects/pipeline/inference_pipeline.py
++++ b/sam3d_objects/pipeline/inference_pipeline.py
+@@ -9,6 +9,11 @@ from torch.utils._pytree import tree_map_only
+ 
+ 
+ def set_attention_backend():
++    # Honor pre-set env vars (allows xformers fallback when flash_attn unavailable)
++    if "ATTN_BACKEND" in os.environ:
++        logger.info(f"Using pre-set ATTN_BACKEND={os.environ['ATTN_BACKEND']}")
++        return
++
+     if torch.cuda.is_available():
+         gpu_name = torch.cuda.get_device_name(0)
+     else:
+diff --git a/sam3d_objects/pipeline/inference_pipeline_pointmap.py b/sam3d_objects/pipeline/inference_pipeline_pointmap.py
+index f557834..c1cb2a8 100644
+--- a/sam3d_objects/pipeline/inference_pipeline_pointmap.py
++++ b/sam3d_objects/pipeline/inference_pipeline_pointmap.py
+@@ -294,6 +294,12 @@ class InferencePipelinePointMap(InferencePipeline):
+         point_map_tensor = {
+             "pts_color": loaded_image,
+         }
++        if pointmap is None:
++            # Expose the raw MoGe products so the downstream object-pose stage can
++            # reuse keyframe inference instead of running the same checkpoint again.
++            # These are observational return fields and do not alter SAM3D inputs.
++            point_map_tensor["moge_depth"] = output.get("depth")
++            point_map_tensor["moge_mask"] = output.get("mask")
+ 
+         # If depth model doesn't provide intrinsics, infer them
+         if intrinsics is None:
+@@ -444,6 +450,9 @@ class InferencePipelinePointMap(InferencePipeline):
+                     **ss_return_dict,
+                     "pointmap": pts.cpu().permute((1, 2, 0)),  # HxWx3
+                     "pointmap_colors": pts_colors.cpu().permute((1, 2, 0)),  # HxWx3
++                    "intrinsics": pointmap_dict["intrinsics"],  # normalized intrinsics used in this run
++                    "moge_depth": pointmap_dict.get("moge_depth"),
++                    "moge_mask": pointmap_dict.get("moge_mask"),
+                 }
+                 # return ss_return_dict
+ 
+@@ -506,6 +515,9 @@ class InferencePipelinePointMap(InferencePipeline):
+                 **outputs,
+                 "pointmap": pts.cpu().permute((1, 2, 0)),  # HxWx3
+                 "pointmap_colors": pts_colors.cpu().permute((1, 2, 0)),  # HxWx3
++                "intrinsics": pointmap_dict["intrinsics"],  # normalized intrinsics used in this run
++                "moge_depth": pointmap_dict.get("moge_depth"),
++                "moge_mask": pointmap_dict.get("moge_mask"),
+             }
+ 
+     @staticmethod
+diff --git a/sam3d_objects/pipeline/inference_utils.py b/sam3d_objects/pipeline/inference_utils.py
+index d78dc7c..81d6887 100644
+--- a/sam3d_objects/pipeline/inference_utils.py
++++ b/sam3d_objects/pipeline/inference_utils.py
+@@ -324,7 +324,15 @@ def layout_post_optimization_method_GS(
+         logger.info(f"Occlusion check skipped (disabled)")
+ 
+     # Step 1: Manual Alignment
+-    if Enable_manual_alignment:
++    initial_iou_value = float(initial_iou.detach().cpu().item())
++    auto_enable_manual_alignment = (
++        not Enable_manual_alignment and initial_iou_value <= 1e-6
++    )
++    run_manual_alignment = Enable_manual_alignment or auto_enable_manual_alignment
++
++    if run_manual_alignment:
++        if auto_enable_manual_alignment:
++            logger.info("Step 1 Manual Alignment Auto-enabled (initial IoU is zero)")
+         source_points, target_points, center, tfm1, gaussian_aligned, ori_iou, final_iou, flag_notgt = (
+             run_gs_alignment(
+                 point_map, mask, gaussian_transformed, center, renderer, intrinsics_tensor, device
+@@ -424,10 +432,10 @@ def layout_post_optimization_method_GS(
+         optimized_iou = compute_iou_gs(rendered, mask, threshold=0.5)
+ 
+         # Criterior to use layout optimization
+-        if optimized_iou < ori_iou:
++        if optimized_iou <= ori_iou:
+             Flag_optim = False
+             tfm = tfm_ori
+-            logger.info(f"Step 3 Render-Compare: Rejected optimization (IoU: {optimized_iou:.3f} ≤ {ori_iou:.3f}")
++            logger.info(f"Step 3 Render-Compare: Rejected optimization (IoU not improved: {optimized_iou:.3f} ≤ {ori_iou:.3f})")
+         else:
+             Flag_optim = True
+             final_iou = optimized_iou.detach().cpu().item()
+@@ -1102,4 +1110,4 @@ def estimate_plane_area(mask):
+     bbox_area = bbox_height * bbox_width
+ 
+     # Return ratio of bounding box area to total image area
+-    return bbox_area / total_area
+\ No newline at end of file
++    return bbox_area / total_area

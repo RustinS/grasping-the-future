@@ -1,0 +1,1290 @@
+{
+ "population": "mocap",
+ "split": "val",
+ "n_windows": 256,
+ "window_seconds": 5.0,
+ "window_digest": "ea4d714fc1367a3a4dead80969cd506da26c5f4d8c6388da47c17a38fa4dd529",
+ "reference": "motion capture",
+ "windows": [
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_o1_0_cappuccino_g000",
+   "first_frame": 375
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002935_obj11",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_151008_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_stir_spoon_bowl_20231105_054_tool_203_r000",
+   "first_frame": 63
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_SiBF14_011_banana_r000",
+   "first_frame": 375
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_142915_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A004_seq__959a025a97c09ece4891__2023-05-07-19-39-17_O02@0055@00002_egocentric_r000__iw1",
+   "first_frame": 2131
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu14_004_sugar_box_r004",
+   "first_frame": 1525
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_SiBF14_011_banana_r003__iw0",
+   "first_frame": 1736
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_ASC023__birdhousetoy_shaking_c0db_headset0_r005",
+   "first_frame": 1628
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_YZH016__mug_inspecting_7d55_headset0_r001",
+   "first_frame": 152
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_03__A001_seq__b1fbad5c4fb46a7c0612__2023-04-27-18-27-07_O02@0204@00001_egocentric_r000__iw1",
+   "first_frame": 1803
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145240_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_04__A008_seq__547675de3c1d37a85a09__2023-04-23-11-27-15_O02@0025@00001_egocentric_r000__iw0",
+   "first_frame": 470
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 570
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ABF14_021_bleach_cleanser_r004",
+   "first_frame": 988
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A002_seq__e353fef56c230c7f05bf__2023-04-17-14-47-11_O02@0047@00002_egocentric_r000__iw0",
+   "first_frame": 171
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 300
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145310_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A003_seq__86e2ac0670ffe6e031b8__2023-04-23-20-08-58_C12001_egocentric_r000__iw1",
+   "first_frame": 1978
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_XXI103__canparmesan_pretend-opening_9516_headset0_r004",
+   "first_frame": 1184
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_150611_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_04__A004_seq__76fd939dff16583c7c6d__2023-04-26-18-58-48_S10020_egocentric_r000__iw0",
+   "first_frame": 262
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A004_seq__b01ecbd7533936b533ef__2023-04-28-19-27-08_O02@0020@00002_egocentric_r000__iw0",
+   "first_frame": 247
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A001_seq__f639df32f29fdc405c2a__2023-04-18-14-51-24_O02@0049@00001_egocentric_r000__iw0",
+   "first_frame": 957
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-001913_obj17",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143241_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_measure_ruler_plate_20231104_083_tool_145_r000",
+   "first_frame": 7
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_brush_eraser_plate_20231103_063_tool_066_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF10_010_potted_meat_can_r003",
+   "first_frame": 821
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_put_out_spoon_pan_20231020_081_target_213_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143921_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_o1_0_cappuccino_g000",
+   "first_frame": 225
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002632_obj31",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_144902_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_03__A008_seq__e626d4fa0c73c5198a59__2023-04-23-11-16-48_O02@0202@00001_egocentric_r000__iw0",
+   "first_frame": 171
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003208_obj08",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003068_obj31",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_brush_pan_20230927_024_target_057_r000",
+   "first_frame": 60
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ABF14_021_bleach_cleanser_r000",
+   "first_frame": 225
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF12_010_potted_meat_can_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_put_out_spatula_plate_20231104_119_target_005_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_scrape_off_spatula_pan_20231020_117_target_214_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_SiBF14_011_banana_r000",
+   "first_frame": 150
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145800_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_roller_plate_20230927_034_target_049_r000",
+   "first_frame": 71
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145737_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_XXI103__cansoup_pouring-out_4a39_headset0_r001",
+   "first_frame": 496
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 525
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_142601_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A007_seq__126ad7e6ea35c8ec7aaf__2023-04-19-09-35-59_O02@0047@00002_egocentric_r000__iw0",
+   "first_frame": 162
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ABF14_021_bleach_cleanser_r000",
+   "first_frame": 75
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_scrape_off_spoon_bowl_20231104_188_tool_198_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_cut_knife_bowl_20231020_263_tool_045_r000",
+   "first_frame": 30
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 484
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_SiBF14_011_banana_r000",
+   "first_frame": 675
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_2_cam0_r000__iw0",
+   "first_frame": 1026
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_150239_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MMO925__orangejuice_scratching-off-price-tags_7007_headset0_r002",
+   "first_frame": 688
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_1_cam0_r000__iw0",
+   "first_frame": 75
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_ASC023__dinotoy_pretend-play_ac09_headset0_r001",
+   "first_frame": 912
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_1_cam0_r000__iw0",
+   "first_frame": 300
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_skim_off_bowl_plate_20231024_245_tool_180_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 966
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_150105_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003276_obj11",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 450
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A005_seq__39c30d86600d4b2e4581__2023-04-25-18-43-06_O02@0028@00001_egocentric_r000__iw0",
+   "first_frame": 1498
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002793_obj06",
+   "first_frame": 0
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_1_cam0_r000__iw0",
+   "first_frame": 336
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145212_cam5",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MMO925__orangejuice_scratching-off-price-tags_7007_headset0_r008",
+   "first_frame": 1690
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF12_010_potted_meat_can_r000",
+   "first_frame": 250
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 709
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ABF14_021_bleach_cleanser_r001",
+   "first_frame": 502
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_LYA722__dinotoy_washing_a50b_headset0_r003",
+   "first_frame": 241
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_brush_eraser_plate_20231103_056_target_052_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_LWA828__milk_pouring-in_e409_headset0_r001__iw0",
+   "first_frame": 323
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu14_004_sugar_box_r000",
+   "first_frame": 21
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_o1_0_cappuccino_g000",
+   "first_frame": 150
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_03__A004_seq__dee46deb1c028e704b73__2023-04-26-18-43-32_O02@0201@00001_egocentric_r000__iw0",
+   "first_frame": 813
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003115_obj06",
+   "first_frame": 0
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw1",
+   "first_frame": 1337
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_1_cam0_r000__iw0",
+   "first_frame": 225
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_o1_0_cappuccino_g000",
+   "first_frame": 75
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A003_seq__199d780fa0a48fa7f41e__2023-04-16-11-34-09_O02@0017@00001_egocentric_r000__iw0",
+   "first_frame": 1529
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_1_cam0_r000__iw0",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 225
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A001_seq__a2b162144bebd1c592b2__2023-04-15-19-09-07_O02@0029@00007_egocentric_r000__iw0",
+   "first_frame": 1011
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_skim_off_bowl_plate_20231024_250_tool_180_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003301_obj16",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A003_seq__2f774a18a128dafb628a__2023-04-18-09-48-37_O02@0017@00002_egocentric_r000__iw0",
+   "first_frame": 948
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A002_seq__908a1edaf860b6977ee0__2023-04-17-15-03-51_O02@0049@00001_egocentric_r000__iw0",
+   "first_frame": 379
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_SPI102__keyboard_test-keys_fc98_headset0_r000",
+   "first_frame": 150
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 784
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_skim_off_spoon_plate_20231024_063_tool_200_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MHA016__brushholder_inspecting_e5bd_headset0_r005",
+   "first_frame": 1649
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_brush_brush_kettle_20231103_159_tool_036_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A001_seq__b29ee6fc3a226cd716ec__2023-04-27-19-39-19_O02@0030@00002_egocentric_r000__iw0",
+   "first_frame": 750
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_skim_off_spoon_pan_20231020_144_tool_209_r000",
+   "first_frame": 12
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143825_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A004_seq__29b5a6c10c68857d1431__2023-04-28-19-00-55_O02@0017@00002_egocentric_r000__iw0",
+   "first_frame": 276
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145003_cam5",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145144_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A004_seq__817fbb3e3627c6d80646__2023-04-26-20-51-54_O02@0055@00002_egocentric_r000__iw0",
+   "first_frame": 644
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_ASC023__dinotoy_pretend-play_ac09_headset0_r000",
+   "first_frame": 822
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002551_obj08",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_skim_off_spatula_bowl_20231024_150_tool_181_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_scrape_off_spoon_bowl_20231104_200_target_189_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143043_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A007_seq__292a99fe43cd5ec6f639__2023-04-21-10-50-59_O02@0038@00001_egocentric_r000__iw0",
+   "first_frame": 145
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu14_004_sugar_box_r002",
+   "first_frame": 1005
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_brush_bowl_20231005_189_target_023_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu13_004_sugar_box_r001",
+   "first_frame": 751
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002144_obj20",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_151044_cam5",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002253_obj29",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143726_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A004_seq__d68290a50c82ed38e879__2023-04-26-20-42-56_C51001_egocentric_r000__iw0",
+   "first_frame": 473
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ABF14_021_bleach_cleanser_r000",
+   "first_frame": 150
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_2_cam0_r000__iw0",
+   "first_frame": 1176
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-001891_obj04",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002013_obj06",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_roller_plate_20231013_277_tool_113_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_2_cam0_r000__iw0",
+   "first_frame": 1335
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_2_cam0_r000__iw0",
+   "first_frame": 951
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_cut_knife_plate_20231013_101_tool_120_r000",
+   "first_frame": 3
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_o1_0_cappuccino_g000",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MHA016__balandabowl_pouring-out_6e96_headset0_r006",
+   "first_frame": 905
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_h2_5_cocoa_g000",
+   "first_frame": 297
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_h2_5_cocoa_g000",
+   "first_frame": 150
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_stir-fry_spatula_plate_20230923_013_tool_034_r000",
+   "first_frame": 122
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF12_010_potted_meat_can_r003",
+   "first_frame": 838
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_XXI103__cansoup_pouring-out_4a39_headset0_r002",
+   "first_frame": 1007
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_142724_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 375
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_03__A004_seq__b7853a8caac0b26347c1__2023-04-26-19-19-49_O02@0201@00001_egocentric_r000__iw3",
+   "first_frame": 2174
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002647_obj24",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MHA016__balandabowl_lifting-weighing_973c_headset0_r009",
+   "first_frame": 1620
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003188_obj15",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A001_seq__ad92412aedb8d5b1086e__2023-04-27-20-34-16_S10021_egocentric_r000__iw0",
+   "first_frame": 677
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_ASC023__birdhousetoy_shaking_c0db_headset0_r001",
+   "first_frame": 996
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-001923_obj18",
+   "first_frame": 0
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 559
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002512_obj21",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143556_cam5",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_o1_0_cappuccino_g000",
+   "first_frame": 300
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_144010_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003025_obj08",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_roller_pan_20231019_210_tool_195_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF12_010_potted_meat_can_r003",
+   "first_frame": 821
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_LWA828__milk_pouring-in_e409_headset0_r001__iw1",
+   "first_frame": 670
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu13_004_sugar_box_r001",
+   "first_frame": 662
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_1_cam0_r000__iw0",
+   "first_frame": 150
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_YZH016__keyboard_type-message-slowly_6f6e_headset0_r000",
+   "first_frame": 1484
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143403_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu14_004_sugar_box_r000",
+   "first_frame": 171
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 150
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 409
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw1",
+   "first_frame": 1278
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_PCW023__dumbbell_hammer-curls_98e1_headset0_r005",
+   "first_frame": 1561
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_YZH016__keyboard_inspecting_4fa5_headset0_r002",
+   "first_frame": 1483
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 634
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 934
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_put_in_spoon_pan_20230926_010_target_028_r000__iw0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A001_seq__b29ee6fc3a226cd716ec__2023-04-27-19-39-19_C12001_egocentric_r000__iw0",
+   "first_frame": 596
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143857_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_brush_brush_helmet_20231027_012_tool_179_r000",
+   "first_frame": 4
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_stir_spoon_pan_20231020_086_tool_170_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003125_obj04",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_XXI103__cantomatosauce_pouring-out_5e68_headset0_r003",
+   "first_frame": 1084
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu13_004_sugar_box_r000",
+   "first_frame": 246
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002820_obj09",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_h2_5_cocoa_g000",
+   "first_frame": 75
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_150441_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145902_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002372_obj06",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF10_010_potted_meat_can_r000",
+   "first_frame": 225
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__O003_seq__c3dbd1f0f65bac2c023b__2023-04-12-11-09-17_O02@0047@00002_egocentric_r000__iw0",
+   "first_frame": 478
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ABF14_021_bleach_cleanser_r000",
+   "first_frame": 275
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MMO925__orangejuice_scratching-off-price-tags_7007_headset0_r002",
+   "first_frame": 538
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145111_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF10_010_potted_meat_can_r000",
+   "first_frame": 150
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002228_obj18",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_LYA722__dinotoy_washing_a50b_headset0_r006",
+   "first_frame": 1170
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_144040_cam5",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MHA016__balandabowl_pouring-out_6e96_headset0_r010",
+   "first_frame": 1588
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu13_004_sugar_box_r004",
+   "first_frame": 1322
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_brush_pan_20230928_049_tool_035_r000",
+   "first_frame": 19
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_brush_bowl_20231006_138_tool_171_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__O003_seq__5a9d8e3c8f9bcb540c6f__2023-04-12-09-39-15_O02@0047@00001_egocentric_r000__iw0",
+   "first_frame": 149
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu14_004_sugar_box_r001",
+   "first_frame": 662
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject3_h2_1_milk_g000",
+   "first_frame": 75
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_YZH016__keyboard_inspecting_4fa5_headset0_r002",
+   "first_frame": 529
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_4_cam0_r000__iw0",
+   "first_frame": 859
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_145606_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu14_004_sugar_box_r000",
+   "first_frame": 321
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002422_obj07",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_03__A001_seq__53be15af2c1f6371a18c__2023-04-27-18-18-03_O02@0011@00003_egocentric_r000__iw0",
+   "first_frame": 933
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_h2_5_cocoa_g000",
+   "first_frame": 225
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_03__A004_seq__0646dd7c73d7f6f68b10__2023-04-22-18-56-22_O02@0202@00001_egocentric_r000__iw0",
+   "first_frame": 760
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__O001_seq__f62ac3be7c610c6718fd__2023-04-04-16-02-37_O02@0047@00002_egocentric_r000__iw0",
+   "first_frame": 231
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_SPI102__keyboard_test-keys_fc98_headset0_r000",
+   "first_frame": 600
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_04__A005_seq__d41bc19324e0d1ed05c3__2023-04-20-11-07-09_O02@0025@00001_egocentric_r000__iw0",
+   "first_frame": 405
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF10_010_potted_meat_can_r003",
+   "first_frame": 671
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002975_obj10",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A001_seq__1c29fc5cfe3b18c6b6ea__2023-04-22-16-25-53_O02@0055@00002_egocentric_r000__iw2",
+   "first_frame": 1215
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002022_obj04",
+   "first_frame": 0
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_2_cam0_r000__iw0",
+   "first_frame": 1251
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_SiBF14_011_banana_r003__iw0",
+   "first_frame": 1704
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002807_obj22",
+   "first_frame": 0
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_o1_0_cappuccino_g000",
+   "first_frame": 377
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002374_obj10",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143455_cam2",
+   "first_frame": 0
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_143014_cam5",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MHA016__balandabowl_lifting-weighing_973c_headset0_r003",
+   "first_frame": 802
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_roller_plate_20231019_172_tool_164_r000",
+   "first_frame": 7
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu13_004_sugar_box_r000",
+   "first_frame": 171
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_144623_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002106_obj31",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003305_obj17",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_YZH016__mug_inspecting_7d55_headset0_r000",
+   "first_frame": 62
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-002283_obj16",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_02__A001_seq__b5736ef0a80eed1a965b__2023-04-22-16-02-02_O02@0048@00001_egocentric_r000__iw0",
+   "first_frame": 586
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF12_010_potted_meat_can_r000",
+   "first_frame": 225
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_151415_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A003_seq__35fb7760f51e79a8a573__2023-04-16-11-22-39_O02@0026@00001_egocentric_r000__iw1",
+   "first_frame": 1275
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_XXI103__cantomatosauce_pouring-out_5e68_headset0_r001",
+   "first_frame": 72
+  },
+  {
+   "source": "h2o",
+   "segment_id": "h2o_subject2_h2_5_cocoa_g000",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_XXI103__canparmesan_pretend-opening_9516_headset0_r005",
+   "first_frame": 1494
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_MHA016__brushholder_inspecting_e5bd_headset0_r001",
+   "first_frame": 371
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_144145_cam5",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003286_obj14",
+   "first_frame": 0
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_01__A003_seq__0b3a0a3dba029a07ad90__2023-04-21-19-16-37_S10001_egocentric_r000__iw0",
+   "first_frame": 2952
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_2_cam0_r000__iw0",
+   "first_frame": 1326
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003355_obj31",
+   "first_frame": 0
+  },
+  {
+   "source": "hocap",
+   "segment_id": "hocap_subject_2_20231023_164242_G19_2_cam0_r000__iw0",
+   "first_frame": 1101
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_ShSu13_004_sugar_box_r004",
+   "first_frame": 1472
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-003120_obj04",
+   "first_frame": 0
+  },
+  {
+   "source": "hot3d",
+   "segment_id": "hot3d_aria_clip-001889_obj24",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_pour_in_some_teapot_kettle_20231019_045_target_216_r000",
+   "first_frame": 17
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_brush_eraser_plate_20231027_058_target_135_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_ASC023__mug_inspecting_817d_headset0_r000",
+   "first_frame": 815
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF12_010_potted_meat_can_r002",
+   "first_frame": 533
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_PCW023__dumbbell_hammer-curls_98e1_headset0_r001",
+   "first_frame": 965
+  },
+  {
+   "source": "oakink2",
+   "segment_id": "oakink2_scene_03__A007_seq__b4d4456ced6f3803440c__2023-04-19-11-32-19_O02@0033@00002_egocentric_r000__iw0",
+   "first_frame": 255
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_put_out_spoon_pan_20231020_157_target_192_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_GPMF10_010_potted_meat_can_r001",
+   "first_frame": 414
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_dust_roller_bowl_20231103_202_tool_031_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "ho3d",
+   "segment_id": "ho3d_SiBF14_011_banana_r003__iw0",
+   "first_frame": 1479
+  },
+  {
+   "source": "dexycb",
+   "segment_id": "dexycb_s09_150208_cam0",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_pour_in_some_bowl_cup_20230929_031_target_098_r000__iw0",
+   "first_frame": 0
+  },
+  {
+   "source": "taco",
+   "segment_id": "taco_skim_off_spoon_plate_20231024_096_target_005_r000",
+   "first_frame": 0
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_YZH016__keyboard_type-message-slowly_6f6e_headset0_r000",
+   "first_frame": 750
+  },
+  {
+   "source": "show3d",
+   "segment_id": "show3d_PCW023__dumbbell_curls_910c_headset0_r000",
+   "first_frame": 825
+  }
+ ]
+}
